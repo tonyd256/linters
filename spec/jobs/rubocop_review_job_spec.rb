@@ -12,7 +12,7 @@ RSpec.describe RubocopReviewJob do
           {
             line: 1,
             message: "Avoid single-line method definitions.",
-          }
+          },
         ],
       )
     end
@@ -44,7 +44,7 @@ RSpec.describe RubocopReviewJob do
           {
             line: 1,
             message: "unexpected token tINTEGER",
-          }
+          },
         ],
       )
     end
